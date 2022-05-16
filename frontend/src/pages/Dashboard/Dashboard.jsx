@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import {useDispatch,useSelector} from 'react-redux'
 import { useNavigate } from 'react-router-dom';
-import GoalsForm from '../GoalsForm/GoalsForm';
+import {GoalsForm} from '../../components/GoalsForm/GoalsForm'
 import { FetchGoals,reset } from '../../features/goalSlice';
 import Spinner from '../../components/Spinner/Spinner';
 import { toast } from 'react-toastify';

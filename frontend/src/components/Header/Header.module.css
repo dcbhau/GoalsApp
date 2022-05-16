@@ -11,10 +11,10 @@
 {
     text-decoration: none;
     font-weight: 700;
-    color: transparent;
+    color: rgba(255,255,255, 0.7);
     font-size: 30px;
     text-shadow: -1px -1px 2px rgba(255,255,255,0.06),1px 1px 2px rgba(0,0,0, 0.25);
-    box-shadow: -2px -2px 5px 2px rgba(255,255,255,0.05),2px 2px 5px 2px rgba(0,0,0, 0.2);
+    /* box-shadow: -2px -2px 5px 2px rgba(255,255,255,0.05),2px 2px 5px 2px rgba(0,0,0, 0.2); */
     padding: 0 15px;
 }
 ul{
@@ -37,5 +37,14 @@ ul li a:hover{
     color: #BBE1FA;
     text-shadow: 0 0px 10px #BBE1FA;
     text-decoration: none;
+    box-shadow: -2px -2px 5px 2px rgba(255,255,255,0.05),2px 2px 5px 2px rgba(0,0,0, 0.2);
+}
+button
+{
+    color: white !important;
+}
+button:hover,button:active{
+    color: #BBE1FA !important;
+    text-shadow: 0 0px 10px #BBE1FA !important;
     box-shadow: -2px -2px 5px 2px rgba(255,255,255,0.05),2px 2px 5px 2px rgba(0,0,0, 0.2);
 }

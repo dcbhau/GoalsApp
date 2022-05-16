@@ -23,9 +23,7 @@ const Header = () => {
         <ul>
             {
                 user ? (
-                    <li onClick={onLogout}>
-                        <Link to='#' className='d-flex align-items-center'><FaSignOutAlt className='mr-1'/>Logout</Link>
-                    </li>
+                        <button className='btn d-flex align-items-center' onClick={onLogout}><FaSignOutAlt className='mr-1'/>Logout</button>
                     ) : (
                     <>
                         <li>

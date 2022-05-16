@@ -27,7 +27,7 @@ const Dashboard = () => {
     return () => {
       dispatch(reset());
     }
-  },[user,navigate])
+  },[user, navigate, isError, dispatch, message])
 
   if(isLoading) {
     return(<Spinner/>);

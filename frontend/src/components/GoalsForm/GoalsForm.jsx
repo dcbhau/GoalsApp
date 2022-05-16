@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useSelector,useDispatch } from 'react-redux';
+import {useDispatch } from 'react-redux';
 import { CreateGoal } from '../../features/goalSlice';
 const GoalsForm = () => {
     const dispatch = useDispatch()
@@ -27,4 +27,4 @@ const GoalsForm = () => {
   )
 }
 
-export default GoalsForm
+export default  GoalsForm;

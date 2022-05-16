@@ -1,0 +1,68 @@
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container
+{
+  max-width: 1140px;
+  margin: auto;
+  padding: 15px;
+}
+ 
+
+ .form{
+   max-width: 600px;
+   margin: auto;
+ }
+
+ /* .btn
+ {
+   line-height: 50px;
+   display: block;
+   background-color: #525252;
+   width: 100%;
+   border-radius: 5px;
+   font-size: 18px;
+   border: none;
+   color: white;
+   box-shadow: inset 2px 2px 5px 2px rgba(255,255,255,0.1), inset -2px -2px 5px 2px rgba(0,0,0, 0.5);
+ }
+ .btn:hover{
+   background-color: rgba(82,82,82,0);
+   box-shadow: inset -3px -3px 3px rgba(255,255,255,0.01), inset 3px 3px 7px 3px rgba(0,0,0,0.3);
+ } */
+
+ .loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
